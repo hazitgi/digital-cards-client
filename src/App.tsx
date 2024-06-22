@@ -1,11 +1,11 @@
 import React from "react"
 
-import Counter from "./components/counter/Counter"
+import Homepage from "./pages/Homepage"
 
 function App() {
   return (
     <>
-      <Counter />
+      <Homepage />
     </>
   )
 }
