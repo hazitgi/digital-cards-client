@@ -1,11 +1,11 @@
 import React from "react"
 
+import Counter from "./components/counter/Counter"
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-center">
-        Hello world!
-      </h1>
+      <Counter />
     </>
   )
 }
