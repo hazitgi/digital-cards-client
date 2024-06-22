@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Button } from "@/shade/ui/button"
 const Navbar: React.FC = () => {
     return (
         <nav className='flex flex-col justify-between items-center bg-yellow-50 h-screen w-72'>
@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
                 <h6 className='text-1xl'>Menu</h6>
             </div>
             <div className='nav bottom'>
-                <h6 className='text-1xl'>Bottom</h6>
+                <Button>Button</Button>
             </div>
         </nav>
     )
