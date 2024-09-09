@@ -9,6 +9,9 @@ export default {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      popins: ["Poppins", "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",

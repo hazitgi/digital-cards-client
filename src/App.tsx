@@ -1,11 +1,14 @@
-import React from "react"
+// import CardView from "./pages/CardView"
 
-import Homepage from "./pages/Homepage"
+// import Homepage from "./pages/Homepage"
+import LoginPage from "./pages/LoginPage"
 
 function App() {
   return (
     <>
-      <Homepage />
+      {/* <Homepage /> */}
+      {/* <CardView /> */}
+      <LoginPage />
     </>
   )
 }
